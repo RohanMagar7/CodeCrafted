@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -55,6 +55,17 @@ li {
     text-align: center;
 }
 
+#hero-main h2 {
+    padding: 12px;
+    position: absolute;
+    color: #fff;
+    top: 3rem;
+    font-weight: 300;
+    text-align: center;
+    font-size: 53px;
+}
+
+/* 430 min responesive code  */
 @media screen and (max-width:430px) {
 
     #hero-section h2 {
@@ -63,13 +74,13 @@ li {
         margin-top: 3.4rem;
     }
 
-     #hero-title {
-        font-size: 23px;
-        padding: 1rem;
+    #hero-main h2 {
+        font-size: 35px;
     }
 }
 
-#hero-main{
+
+#hero-main {
     position: relative;
     width: 100vw;
     display: flex;
@@ -77,7 +88,7 @@ li {
     justify-content: center;
 }
 
-#hero-img{
-    width: 90vw;
+#hero-img {
+    width: 95vw;
     height: 34rem;
 }
