@@ -19,7 +19,7 @@ li {
     display: flex;
     margin: 23px 0 23px;
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
     justify-items: center;
@@ -43,10 +43,14 @@ li {
 #nav-list ul li {
     display: inline-block;
     font-size: 1.5rem;
-        padding: 6px 20px 0 0;
+    padding: 6px 20px 0 0;
 }
 
+
+/* section hero */
+
 #hero-section h2 {
+   margin-top: 15px;
     font-size: 42px;
     font-style: normal;
     font-weight: 900;
@@ -55,88 +59,83 @@ li {
     text-align: center;
 }
 
-#hero-main h2 {
-    padding: 12px;
-    position: absolute;
-    color: #fff;
-    top: 3rem;
-    font-weight: 900;
-    text-align: center;
-    font-size: 53px;
-}
-
-
-/* 430 min responesive code  */
-@media screen and (max-width:430px) {
-
-    #hero-section h2 {
-        font-size: 23px;
-        padding: 1rem;
-        margin-top: 3.4rem;
-    }
-
-    #hero-main h2 {
-        font-size: 35px;
-    }
-}
-
-
-#hero-main {
+#hero-main{ 
     position: relative;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
-#hero-img {
-    width: 95vw;
-    height: 35rem;
+#hero-img{
+    text-align: center;
+    width: 95%;
 }
 
-#title-min{
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+#hero-main button{
+    position: absolute;
+    bottom: 8px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
 }
 
-#product{
-    width: 95vw;
+#hero-main h2 {
+    position: absolute;
+    top: 8px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
 }
 
-#product-items{
+
+/* Product Card */
+
+#product-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
 
-#card{
-    width: 300px;
-    height: 25rem;
+#card {
+    width: 270px;
+    height: 390px;
+    overflow: hidden;
     border: #000 solid 0.1rem;
     padding: 1rem;
     margin: 1rem;
-    border-radius: 15px;
+    border-radius: 20px;
     position: relative;
-    background: rgb(88,79,193);
-    background: linear-gradient(185deg, rgba(88,79,193,1) 31%, rgba(33,178,196,1) 69%);
+    background: rgb(88, 79, 193);
+    background: linear-gradient(185deg, rgba(88, 79, 193, 1) 31%, rgba(33, 178, 196, 1) 69%);
 }
 
-#card h1{
+#card h1 {
     background-color: #000;
-    color:#fff ;
-    font-weight:500 ;
+    color: #fff;
+    font-weight: 500;
     padding: 1px;
     border-radius: 15px;
     margin-bottom: 28px;
 }
 
-#card p{
-    font-size: 1.2rem;
+#card p {
+    font-size: 20px;
     font-weight: 450;
 }
 
-#card h2{
+#card h2 {
     position: absolute;
     left: 39%;
     bottom: 7px;
@@ -144,4 +143,22 @@ li {
     font-family: 'Times New Roman';
     font-weight: 700;
     margin-top: 12px;
+}
+
+#title-min{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:450px) {
+
+    #hero-section h2 {
+        font-size: 23px;
+        padding: 1rem;
+        margin-top: 64px;
+    }
+
+    #hero-main h2 {
+        font-size: 35px;
+    }
 }
