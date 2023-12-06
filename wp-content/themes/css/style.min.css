@@ -73,7 +73,7 @@ li {
     width: 95%;
 }
 
-#hero-main button{
+#hero-main a{
     position: absolute;
     bottom: 8px;
     padding: 5px;
