@@ -50,7 +50,7 @@ li {
 /* section hero */
 
 #hero-section h2 {
-   margin-top: 15px;
+    margin-top: 15px;
     font-size: 42px;
     font-style: normal;
     font-weight: 900;
@@ -59,7 +59,7 @@ li {
     text-align: center;
 }
 
-#hero-main{ 
+#hero-main {
     position: relative;
     width: 100%;
     display: flex;
@@ -68,12 +68,12 @@ li {
 
 }
 
-#hero-img{
+#hero-img {
     text-align: center;
     width: 95%;
 }
 
-#hero-main a{
+#hero-main a {
     position: absolute;
     bottom: 8px;
     padding: 5px;
@@ -145,7 +145,7 @@ li {
     margin-top: 12px;
 }
 
-#title-min{
+#title-min {
     margin-top: 15px;
     margin-bottom: 30px;
 }
@@ -161,4 +161,70 @@ li {
     #hero-main h2 {
         font-size: 35px;
     }
+}
+
+#details-section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+#details-right{
+    width: 40%;
+    text-align: center;
+}
+
+
+#details-right h1{
+    margin: 23px 0 23px;
+}
+
+#details-left li{
+    background-color: #ff9d0b;
+    color: #fff;
+    padding: 12px;
+    margin: 12px 0 12px;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    height: 30%;
+    padding: 22px;
+    margin: 10px;
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+#footer div {
+    margin: 12px;
+}
+
+#footer ul li a {
+    color: white;
+}
+
+#footer ul li {
+    background-color: transparent;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#copy-r {
+    margin-top: 13px;
+    text-align: center;
 }
